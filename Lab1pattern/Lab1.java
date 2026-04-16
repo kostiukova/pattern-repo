@@ -2,7 +2,6 @@ package ua.edu.chnu.creational;
 
 import java.util.*;
 
-
 //1. ОСНОВНА СУТНІСТЬ 
 class Castle {
     private String name;
@@ -15,6 +14,7 @@ class Castle {
         this.towers = towers;
         this.material = material;
     }
+
 
     // Prototype Pattern: копіювання об'єкта
     public Castle clone() {
